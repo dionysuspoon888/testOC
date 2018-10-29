@@ -15,6 +15,11 @@
 		FC9AC17D2186DDC000777912 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9AC17C2186DDC000777912 /* main.m */; };
 		FC9AC1872186DDC100777912 /* testOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9AC1862186DDC100777912 /* testOCTests.m */; };
 		FC9AC1922186DDC100777912 /* testOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9AC1912186DDC100777912 /* testOCUITests.m */; };
+		FC9AC1DB21870A2100777912 /* btn_red_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC9AC1DA21870A2100777912 /* btn_red_bg@2x.png */; };
+		FC9AC1DD21870E1800777912 /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC9AC1DC21870E1800777912 /* MyViewController.xib */; };
+		FC9AC1E021870F3700777912 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9AC1DF21870F3700777912 /* MyViewController.m */; };
+		FC9AC1EC2187182800777912 /* WarnMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC9AC1EB2187182800777912 /* WarnMessageViewController.xib */; };
+		FC9AC1F2218718F300777912 /* WarnMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9AC1F1218718F300777912 /* WarnMessageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,13 @@
 		FC9AC18D2186DDC100777912 /* testOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC9AC1912186DDC100777912 /* testOCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testOCUITests.m; sourceTree = "<group>"; };
 		FC9AC1932186DDC100777912 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC9AC1DA21870A2100777912 /* btn_red_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_red_bg@2x.png"; sourceTree = "<group>"; };
+		FC9AC1DC21870E1800777912 /* MyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
+		FC9AC1DE21870F3700777912 /* MyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		FC9AC1DF21870F3700777912 /* MyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		FC9AC1EB2187182800777912 /* WarnMessageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WarnMessageViewController.xib; sourceTree = "<group>"; };
+		FC9AC1F0218718F300777912 /* WarnMessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WarnMessageViewController.h; sourceTree = "<group>"; };
+		FC9AC1F1218718F300777912 /* WarnMessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WarnMessageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				FC9AC16C2186DDBE00777912 /* testOC */,
+				FC9AC1D9218709ED00777912 /* Resources */,
 				FC9AC1852186DDC100777912 /* testOCTests */,
 				FC9AC1902186DDC100777912 /* testOCUITests */,
 				FC9AC16B2186DDBE00777912 /* Products */,
@@ -110,6 +123,12 @@
 				FC9AC1782186DDC000777912 /* LaunchScreen.storyboard */,
 				FC9AC17B2186DDC000777912 /* Info.plist */,
 				FC9AC17C2186DDC000777912 /* main.m */,
+				FC9AC1DE21870F3700777912 /* MyViewController.h */,
+				FC9AC1DF21870F3700777912 /* MyViewController.m */,
+				FC9AC1DC21870E1800777912 /* MyViewController.xib */,
+				FC9AC1EB2187182800777912 /* WarnMessageViewController.xib */,
+				FC9AC1F0218718F300777912 /* WarnMessageViewController.h */,
+				FC9AC1F1218718F300777912 /* WarnMessageViewController.m */,
 			);
 			path = testOC;
 			sourceTree = "<group>";
@@ -130,6 +149,14 @@
 				FC9AC1932186DDC100777912 /* Info.plist */,
 			);
 			path = testOCUITests;
+			sourceTree = "<group>";
+		};
+		FC9AC1D9218709ED00777912 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FC9AC1DA21870A2100777912 /* btn_red_bg@2x.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +262,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC9AC1EC2187182800777912 /* WarnMessageViewController.xib in Resources */,
+				FC9AC1DB21870A2100777912 /* btn_red_bg@2x.png in Resources */,
 				FC9AC17A2186DDC000777912 /* LaunchScreen.storyboard in Resources */,
 				FC9AC1772186DDC000777912 /* Assets.xcassets in Resources */,
 				FC9AC1752186DDBE00777912 /* Main.storyboard in Resources */,
+				FC9AC1DD21870E1800777912 /* MyViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +294,9 @@
 			files = (
 				FC9AC1722186DDBE00777912 /* ViewController.m in Sources */,
 				FC9AC17D2186DDC000777912 /* main.m in Sources */,
+				FC9AC1E021870F3700777912 /* MyViewController.m in Sources */,
 				FC9AC16F2186DDBE00777912 /* AppDelegate.m in Sources */,
+				FC9AC1F2218718F300777912 /* WarnMessageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +468,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7W8874LXK3;
+				DEVELOPMENT_TEAM = 382BFGVQ3G;
 				INFOPLIST_FILE = testOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -453,7 +485,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7W8874LXK3;
+				DEVELOPMENT_TEAM = 382BFGVQ3G;
 				INFOPLIST_FILE = testOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

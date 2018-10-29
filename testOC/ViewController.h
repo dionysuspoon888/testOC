@@ -9,7 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *username;
 
+@property (weak, nonatomic) IBOutlet UIButton *login;
+
+@property (weak, nonatomic) IBOutlet UIView *bottomView;
 
 @end
 
